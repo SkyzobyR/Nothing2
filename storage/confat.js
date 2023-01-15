@@ -18,6 +18,7 @@ exports.simplemenu = (prefix) => {
 🍃 ${prefix}randomimagemenu
 🍃 ${prefix}randomanimemenu
 🍃 ${prefix}wallpapermenu
+🍃 ${prefix}nsfwmenu
 🍃 ${prefix}othermenu
 `
 }
@@ -355,7 +356,12 @@ exports.wallpapermenu = (prefix) => {
 `
 }
 
- 
+exports.nsfwmenu = (prefix) => {
+  return`*Nsfw Menu*
+
+`
+}
+
 exports.othermenu = (prefix) => {
   return`*Other Menu*
 🍃 ${prefix}on
@@ -401,9 +407,10 @@ exports.donasi = () => {
   return`Jika Ingin Melakukan Donasi Diharapkan Untuk Melakukan Scan Qr Code Diatas
 
 Rental Bot WhatsApp :
-📆 10k 1 Minggu
-📆 20k 1 Bulan
-📆 50K 2 Bulan
+📆 10k/Minggu
+📆 20k/Bulan
+📆 100k/Tahun
+🍒 Permanen? Buat Bot Sendiri
 `
 }
 
